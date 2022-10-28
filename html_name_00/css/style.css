@@ -1,0 +1,445 @@
+/* ここから下に記載していく */
+@charset "utf-8";
+html{
+
+    font-size: 62.5%;
+}
+
+
+/* -----------------------
+全体に対して
+-------------------------- */
+body{
+
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;   
+    font-size: 1.6rem;
+    width: 1200px;
+    margin:auto;
+}
+
+.text-center{
+
+    text-align: center;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    }
+
+/* -----------------------
+header部分
+-------------------------- */
+
+.nav{
+    font-size: 21px;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 50px 0px 50px 0;
+
+}
+
+.header-wrapper img{
+    height: 70px;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-item{
+    margin: 0px 50px 0px 0;
+    font-size: 2.1rem;
+    }
+    
+    .nav-item>a{
+        color: #000;
+        text-transform: uppercase;
+    }
+
+/* -----------------------
+セカイ変えるチーズを作ろうの部分
+-------------------------- */
+.main-image{
+    position: relative;
+}
+
+.main-text{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform:translate3d(-50%,-50%,0) ;
+}
+
+.main-text1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    margin: 0 0 30px;
+}
+
+.main-text2{
+    color: #fff;
+    font-size: 2.5rem;
+    letter-spacing: 0.1em;
+}
+
+/* -----------------------
+about部分
+-------------------------- */
+
+.about-wrapper{
+    margin: 60px 0 60px 0;
+}
+
+.about-title{
+    color: #ffd61a;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+.about-title-jp{
+    font-size: 1.8rem;
+    margin: 0 0 60px;
+}
+
+.about-text1{
+    font-size: 1.6rem;
+    margin: 0 0 40px;
+}
+
+.about-text2{
+    font-size: 1.6rem;
+    margin: 0 0 40px;
+}
+
+.about-text3{
+    font-size: 1.6rem;
+    margin: 0 0 40px;
+}
+
+.about-text4{
+    font-size: 1.6rem;
+    margin: 0 0 80px;
+}
+
+.about-img{
+    width: 1200px;
+}
+
+.about-imglist{
+    display: flex;
+}
+
+.about-imglist img{
+    width: 300px;
+}
+
+/* -----------------------
+COURCE部分
+-------------------------- */
+
+.cource-wrapper{
+    margin: 60px 0 60px 0;
+}
+
+.cource-wrapper-in{
+    background-color: #fafafa;
+}
+
+
+.cource-title{
+    color: #ffd61a;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+.cource-text{
+    font-size: 1.6rem;
+    margin: 30px 0 60px 0;
+}
+
+.cource-wrapper img{
+    width: 50%;
+}
+
+
+.cource-text-right{
+    height: 404px;
+    width: 430px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.cource-text-right-in{
+    width: 430px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 0 0 50px;
+}
+
+.cource-text-right-in h3{
+    color: #000000;
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding: 0 0 40px 0;
+}
+
+.cource-text-left{
+    width: 50%;
+    float: left;
+    height: 400px;
+    vertical-align: top;
+    position: relative;
+}
+
+.cource-text-left-in{
+    width: 430px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 0 0 50px;
+}
+
+
+.cource-text-left-in h3{
+    color: #000000;
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding: 0 0 40px 0;
+}
+
+
+
+/* -----------------------
+news部分
+-------------------------- */
+.news-back{
+    margin-bottom:60px;
+}
+
+.news-wrapper{
+    margin: 60px 0 60px 0;
+    position: relative;
+}
+
+.news-title{
+    color: #ffd61a;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+.news-title-jp{
+    font-size: 1.8rem;
+    margin: 0 0 60px;
+}
+
+.news-list{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 34rem;
+}
+
+.news-item{
+    width: 300px;
+}
+
+.news-item-center{
+    width: 300px;
+    margin: 0 30px 0 30px;
+}
+
+.news-day{
+    font-size: 1.6rem;
+    margin: 0 0 24px;
+}
+
+.news-img{
+    margin: 0 0 30px;
+}
+
+.btn{
+    display: block;
+    width: 300px;
+    height: 60px;
+    margin: auto;
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 1.8rem;
+    position: relative;
+    }
+
+.btn-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+
+
+/* -----------------------
+ACCESS部分
+-------------------------- */
+.access-wrapper{
+    padding: 60px 0 60px 0;
+    background-color: #fafafa;
+}
+
+.access-title{
+    color: #ffd61a;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+.access-title-jp{
+    font-size: 1.8rem;
+    margin: 0 0 60px;
+}
+
+.table{
+    table-layout: fixed;
+    margin:auto;
+
+}
+
+.table-tr{
+    padding: 8px 0 0 0;
+}
+
+.table-td{
+    padding: 20px;
+    text-align: left;
+}
+
+.access-about{
+    padding:50px 0 0 0;
+}
+
+
+/* -----------------------
+CONTACT部分
+-------------------------- */
+.contact-wrapper{
+    margin: 60px 0 60px 0;
+}
+
+.contact-title{
+    color: #ffd61a;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+
+.contact-text1{
+    font-size: 1.6rem;
+    margin: 0 0 60px;
+}
+
+.contact-text2{
+    font-size: 1.6rem;
+    margin: 0 0 30px;
+}
+
+.contact-text3{
+    font-size: 1.6rem;
+    margin: 0 0 70px;
+}
+
+
+.form-inner{
+    width: 640px;
+    display: flex;
+    flex-wrap:wrap;
+    margin: auto;
+
+}
+
+.form-title{
+    width: 160px;
+    padding: 16px 64px 16px 16px;
+    font-weight: bold;
+    text-align: left;
+    border-top: 2px solid #bfbfbf;
+    border-bottom: 2px solid #bfbfbf;
+    margin: 0 0 -2px; 
+
+}
+
+.form-item{
+    width: 384px;
+    border-top: 2px solid #bfbfbf;
+    border-bottom: 2px solid #bfbfbf;
+    margin: 0 0 -2px; 
+    padding: 8px;
+
+
+}
+
+.form-parts{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+    width: 328px;
+    height: 36px;
+    font-size: 1.6rem;
+    border: solid 1px #c9c9c9;
+}
+.form-label{
+    margin: 0 16px 0 0;
+    font-size: 1.4rem;
+}
+
+input[type*="radio"]{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    margin: 0 10px 0 0 ;
+    border: solid 1px #a0a0a0;
+    border-radius: 50%;
+    vertical-align: -2px;
+}
+
+input[type*="radio"]:checked{
+    background-color: #a0a0a0;
+}
+
+.btn-submit{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+}
+
+/* -----------------------
+footer部分
+-------------------------- */
+
+
+.footer{
+    padding: 30px 0;
+    background-color: #707070;
+}
+
+.copyrights{
+    color: #fff;
+}
